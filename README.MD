@@ -3,7 +3,9 @@ This repository contains an MVP for a 3D product display project.
 ## Goals
 Our aim for this project was to make online shopping more interactive and visually appealing by introducing 3D product displays at Allegro. With this 3D display, users have the ability to view products from all angles, as they would in a physical store.
 ## Project Overview
-
+We used the tampermonkey plugin that embeds external scripts into the product page.
+It allowed us, to replace the product photo with a 3D model to visualize our idea.
+To be able to display 3D models we used the Scaleflex library
 ## How To Use
 This is MVP and
 1. Install TamperMonkey plugin 
