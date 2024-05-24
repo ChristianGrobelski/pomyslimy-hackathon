@@ -1,0 +1,18 @@
+.primary-button {
+    background-color: #ff5a00;
+    color: white;
+    padding-left:16px;
+    padding-right:16px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-style: none;
+    border-radius: 2px;
+    height: 40px;
+}
+
+.primary-button:hover {
+    background-color: rgba(255,90,0,0.8);
+    cursor: pointer;
+}

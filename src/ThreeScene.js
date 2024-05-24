@@ -20,10 +20,10 @@ export const Model = ({url}) => {
         <>
             <mesh ref={ref}>
                 <primitive object={geom} attach="geometry"/>
-                <meshStandardMaterial color={"orange"}/>
+                <meshStandardMaterial color={"blue"}/>
             </mesh>
             <ambientLight/>
-            <pointLight position={[10, 10, 10]}/>
+            <pointLight position={[0, 0, 10]}/>
         </>
     );
 };
